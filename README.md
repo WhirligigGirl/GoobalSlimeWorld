@@ -7,6 +7,18 @@ Goobal Slime World adds the Zwo-nmu system, home to the goobals, astronauts made
 
 The home of the Goobals, Gymnome, is a half-earth-mass planet in a horseshoe orbit with respect to the Jupiter-mass gas giant Omen. Over the course of 30 years, it shifts between a low, warm, fast orbit and a high, cool, slow orbit. It encounters the gas giant Omen every approximately 15 years, whereupon the planet reaches an angular size of about 1/10th of a degree. Gymnome has no moons, so all space exploration will be interplanetary.
 
+## Goobals.
+
+![image](https://github.com/user-attachments/assets/1a634c0c-1daf-4ef9-b2b3-97d8b0767709)
+
+
+Goobals are Gymnomi Slime who take on the appearance of a large-headed, small-bodied humanoid. Though the sentient inhabitants of Gymnome take lots of different shapes and sizes, goobals are launched into space due to their small mass and high adaptability. (Though feel very free to imagine that individuals with other bodyplans or even more amorphous individuals are actually flying on the rockets.)
+
+![Goobal_LoadingScreen](https://github.com/user-attachments/assets/0dedfb70-e2bd-4ff3-afe1-8839c5865826)
+
+![screenshot5](https://github.com/user-attachments/assets/673a0453-ec29-4e0c-be96-fbc9ab3f599b)
+
+
 ## System Layout.
 ![SolSystem-ZwoNmuSystem Comparison](https://github.com/user-attachments/assets/b9af3fda-3802-46bd-893d-260346882201)
 
