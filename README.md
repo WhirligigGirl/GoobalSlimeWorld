@@ -7,10 +7,14 @@ Goobal Slime World adds the Zwo-nmu system, home to the goobals, astronauts made
 
 The home of the Goobals, Gymnome, is a half-earth-mass planet in a horseshoe orbit with respect to the Jupiter-mass gas giant Omen. Over the course of 30 years, it shifts between a low, warm, fast orbit and a high, cool, slow orbit. It encounters the gas giant Omen every approximately 15 years, whereupon the planet reaches an angular size of about 1/10th of a degree. Gymnome has no moons, so all space exploration will be interplanetary.
 
+## A Note on early access.
+
+This mod is still in very early phase. Since as we understand it Principia does not support adding planets, removing planets, or changing the mass and orbital properties of planets to an existing game, and because those properties are all still in flux, be prepared for your save files to be made obsolete when you update to a new mod version. When updating to a new version, we recommend starting a new save file, or there could be unexpected behavior and changes may not be made correctly.
+
 ## Mod requirements.
 
 ### Principia
-Goobal Slime World must be played using Principia, a mod that adds n-body gravitation. The horseshoe orbit central to the mod is categorically impossible with patched conics. This will require a fairly steep learning curve if you are used to the patched conics approximation, but ultimately principia's trajectory planning tools are more powerful than those available in stock KSP.
+***Goobal Slime World must be played using Principia***, a mod that adds n-body gravitation. The horseshoe orbit central to the mod is categorically impossible with patched conics. This will require a fairly steep learning curve if you are used to the patched conics approximation, but ultimately principia's trajectory planning tools are more powerful than those available in stock KSP.
 
 Principia can be found here: https://github.com/mockingbirdnest/Principia
 
