@@ -1,7 +1,7 @@
 # GoobalSlimeWorld
 a KSP planet mod featuring a homeworld in a horseshoe orbit with respect to a habitable-zone gas giant, 
 
-Developed by Luna Rose & Eaurp Guz.
+Developed by Luna Rose & Eaurp Guz, with help from MsAsterisk.
 
 Goobal Slime World adds the Zwo-nmu system, home to the goobals, astronauts made out of Mystery Goo. The planet mod is built at 1/4th of real scale, so compared to RSS scale delta-v costs are cut in half and compared to stock KSP delta-v costs are about 1.6x higher.
 
@@ -22,6 +22,7 @@ In addition, the following mods are required:
 * Kopernicus: https://github.com/kopernicus/kopernicus/releases
 * Kopernicus Expansion Continued: https://github.com/VabienArt/KopernicusExpansion-Continueder/releases
 * VertexHeightOblateAdvanced: https://github.com/jamespglaze/VertexHeightOblateAdvanced/releases
+* VertexMitchellNetravaliHeightMap: https://github.com/pkmniako/Kopernicus_VertexMitchellNetravaliHeightMap
 
 There is also compatibility for the following mods:
 * Scatterer: https://github.com/LGhassen/Scatterer/releases
