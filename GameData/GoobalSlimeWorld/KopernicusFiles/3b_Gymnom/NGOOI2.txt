@@ -1,0 +1,35 @@
+@Kopernicus:FOR[aGoobalSlimeWorld]
+{
+	Body
+	{
+		cacheFile = GoobalSlimeWorld/Cache/NGOOI2.bin
+		name = NGOOI2
+		Template
+		{
+			name = Gilly
+			removePQSMods = VertexSimplexHeightAbsolute
+		}
+		Properties
+		{
+			displayName = (1832) NGOOI 2
+			radius = 13000
+			description = Near-Gymnome Object Of Interest 2 is a small asteroid which is on an apparently stable horseshoe orbit with respect to Omen, just as Gymnome is.
+		}
+		Orbit
+		{
+			referenceBody = Sun
+			semiMajorAxis = 149597870700
+			@semiMajorAxis *= 0.8471375 //au
+			@semiMajorAxis *= 0.965510171 //ratio of NGOOI2 SMA to Gymnome SMA.
+			@semiMajorAxis *= 0.25 //quarter scale
+			
+			meanAnomalyAtEpochD = 183
+			eccentricity = 0.0276
+			inclination = 0.156
+			longitudeOfAscendingNode = 256
+			argumentOfPeriapsis = 150
+			color = 0.25,0.25,0.25,1
+		}
+		
+	}
+}

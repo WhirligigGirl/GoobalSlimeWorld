@@ -1,0 +1,62 @@
+@Kopernicus:FOR[aGoobalSlimeWorld]
+{
+	Body
+	{
+		cacheFile = GoobalSlimeWorld/Cache/NGOOI3.bin
+		name = NGOOI3
+		Template
+		{
+			name = Gilly
+			removePQSMods = VertexSimplexHeightAbsolute
+		}
+		Properties
+		{
+			displayName = (1902) NGOOI 3
+			radius = 13000
+			description = Near-Gymnome Object Of Interest 3 is expected to fly by Gymnome and capture into an unstable orbit. Who knows though, you know?
+		}
+		Orbit
+		{
+			referenceBody = Sun
+			semiMajorAxis = 149597870700
+			@semiMajorAxis *= 0.8471375 //au
+			@semiMajorAxis *= 0.965510171 //ratio of NGOOI2 SMA to Gymnome SMA.
+			@semiMajorAxis *= 0.25 //quarter scale
+			
+			meanAnomalyAtEpochD = 183
+			eccentricity = 0.0276
+			inclination = 0.156
+			longitudeOfAscendingNode = 256
+			argumentOfPeriapsis = 150
+			@argumentOfPeriapsis -= 49 //try to align with Gymnome's orbit even though the orbit definition was done wrong.
+			
+			//these are to try to adjust the encounter a little idk
+			@meanAnomalyAtEpochD += 0.05
+			color = 0.1,0.5,0.1,1
+		}
+		
+		//this orbit node is for a really neat trajectory where it has horseshoe and tadpole interactions with both Omen and Gymnome. But it does eventually devolve into elliptical Omen crossing orbits.
+		// Orbit
+		// {
+			// referenceBody = Sun
+			// semiMajorAxis = 149597870700
+			// @semiMajorAxis *= 0.8471375 //au
+			// @semiMajorAxis *= 0.965510171 //ratio of NGOOI2 SMA to Gymnome SMA.
+			// @semiMajorAxis *= 0.25 //quarter scale
+			
+			// meanAnomalyAtEpochD = 183
+			// eccentricity = 0.0276
+			// inclination = 0.156
+			// longitudeOfAscendingNode = 256
+			// argumentOfPeriapsis = 150
+			// @argumentOfPeriapsis -= 49 //try to align with Gymnome's orbit even though the orbit definition was done wrong.
+			
+			these are to try to adjust the encounter a little idk
+			// @meanAnomalyAtEpochD += 12
+			// @argumentOfPeriapsis -= 5
+			// @longitudeOfAscendingNode -= 12
+			// @longitudeOfAscendingNode += 5
+			// color = 0.1,0.5,0.1,1
+		// }
+	}
+}
