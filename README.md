@@ -70,7 +70,7 @@ Zwo-Nmu
 ![image](https://github.com/user-attachments/assets/1a634c0c-1daf-4ef9-b2b3-97d8b0767709)
 
 
-Goobals are Gymnomi Slime who take on the appearance of a large-headed, small-bodied humanoid. Though the sentient inhabitants of Gymnome take lots of different shapes and sizes, goobals are launched into space due to their small mass and high adaptability. Like most Gymnomi, most Goobals are genderless. (Though feel very free to imagine that individuals with other genders, bodyplans, are actually flying on the rockets--we just can't depict this in game)
+Goobals are Mystery Goo who take on the appearance of a large-headed, small-bodied kerbal figure. Though the sentient inhabitants of Gymnome take lots of different shapes and sizes, goobals are launched into space due to their small mass and high adaptability. Like most Gymnomi Slimes, most Goobals are genderless. (Though feel very free to imagine that individuals with other genders, bodyplans, are actually flying on the rockets--we just can't depict this in game)
 
 ![Goobal_LoadingScreen](https://github.com/user-attachments/assets/0dedfb70-e2bd-4ff3-afe1-8839c5865826)
 
