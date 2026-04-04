@@ -1,0 +1,144 @@
+@principia_gravity_model
+{
+	body
+	{
+		name = Squkl
+		axis_right_ascension    = 82 deg
+		axis_declination        = 19 deg
+		reference_angle         = 0 deg
+	}
+}
+@Kopernicus:FOR[aGoobalSlimeWorld]
+{
+	Body
+	{
+		name = Squkl
+		cacheFile = GoobalSlimeWorld/Cache/Squkl.bin
+		Template
+		{
+			name = Laythe
+		}
+		Properties
+		{
+			radius = 2102020
+			@radius *= 0.25 //quarter scale
+			gravParameter = 3.9860043543609598e+14 //earth's GM.
+			@gravParameter *= 0.0625 //quarter scale
+			@gravParameter *= 0.0104 //M_Earth
+			description = Shpler's largest moon
+			rotationPeriod = 340477.2
+			@rotationPeriod *= 0.5 //quarter scale
+			//RSS scale: 94.577 hours
+		}
+		Orbit
+		{
+			referenceBody = Shpler
+			//Shpler's Hill Sphere: 54,504,869,000m rss scale
+			//Shpler's Roche Limit: 61,000,000m rss scale 
+			//Squkl Aposhpler: 9,738,478,283m rss scale.
+			//Squkl Perishpler: 12,030,489m rss scale.
+			//Squkl Semimajor Axis: (9,738,478,283m+12,030,489m)/2 = 4,875,254,386 m 
+			//Squkl Eccentricitiy: (9,738,478,283m-12,030,489m)/(9,738,478,283+12,030,489m)
+			eccentricity = 0.9975
+			semiMajorAxis = 4875254386
+			@semiMajorAxis *= 0.25 //quarter scale
+			inclination = -4.2
+			longitudeOfAscendingNode = 233
+			argumentOfPeriapsis = 19
+			meanAnomalyAtEpochD = 292
+			//Orbital period: 0.943 years rss scale.
+		}
+		Atmosphere
+		{
+			//stolen from Tannor in WW. To be customized further later.
+			//Water Vapor: 98%
+			//Carbon Dioxide: 1%
+			//Methane: 0.5%
+			//Nitrogen: 0.3%
+			//Dioxygen: 0.15%
+			//Dihydrogen: 0.05% 
+			//molar mass: 18.31 g/mol
+			enabled =	True			
+			oxygen =	True			
+			altitude =	112000			
+			adiabaticIndex =	1.33			
+			atmosphereMolarMass =	0.01831			
+			temperatureSeaLevel =	221			
+			staticPressureASL =	0.57799833		
+			addAFG = True
+			temperatureCurve				
+			{				
+				key =	0	189	0.00000E+00	0.00000E+00
+				key =	10000	189	0.00000E+00	0.00000E+00
+				key =	20000	189	0.00000E+00	-2.40000E-03
+				key =	30000	165	-2.40000E-03	-1.50000E-03
+				key =	40000	150	-1.50000E-03	-8.00000E-04
+				key =	65000	130	-8.00000E-04	0.00000E+00
+				key =	300000	130	0.00000E+00	0.00000E+00
+			}				
+			temperatureSunMultCurve				
+			{				
+				key =	0	1	0.00000E+00	-6.00000E-05
+				key =	20000	-0.2	-6.00000E-05	1.33333E-05
+				key =	50000	0.2	1.33333E-05	0.00000E+00
+				key =	65000	0.2	0.00000E+00	0.00000E+00
+				key =	300000	0.2	0.00000E+00	0.00000E+00
+			}				
+			temperatureLatitudeBiasCurve				
+			{				
+				key =	0	14.42	0	0
+				key =	38	0	-0.7307	-0.7307
+				key =	90	-53.58	-1.1868	0
+			}				
+			temperatureLatitudeSunMultCurve				
+			{				
+				key =	0	76	0	0
+				key =	38	64.55	-0.5802	-0.5802
+				key =	90	22	-0.9425	0
+			}				
+			temperatureAxialSunBiasCurve				
+			{				
+				key =	0	-0.02	0.0007	0.0007
+				key =	23	0	0.0008	0.0008
+				key =	113	0.04	0	0
+				key =	203	0	-0.0008	-0.0008
+				key =	293	-0.04	0	0
+				key =	360	-0.02	0.0007	0.0007
+			}				
+			temperatureAxialSunMultCurve				
+			{				
+				key =	0	0	0	0
+				key =	38	0.5	0.02	0.02
+				key =	90	1	0	0
+			}				
+			temperatureEccentricityBiasCurve				
+			{				
+				key =	0	0	0	0
+				key =	1	0	0	0
+			}				
+			pressureCurve				
+			{				
+				key =	0	5.77998E-01	0.00000E+00	-1.56959E-05
+				key =	18000	3.41025E-01	-1.08214E-05	-1.08214E-05
+				key =	36000	1.82758E-01	-6.79813E-06	-6.79813E-06
+				key =	54000	9.16228E-02	-3.61089E-06	-3.61089E-06
+				key =	72000	4.39560E-02	-1.81441E-06	-1.81441E-06
+				key =	89000	2.19130E-02	-8.90897E-07	-8.90897E-07
+				key =	112000	0.00000E+00	0.00000E+00	0.00000E+00
+			}				
+			AtmosphereFromGround
+			{
+				transformScale = 1.025,1.025,1.025
+				waveLength = 0.95,1,1,1
+				outerRadiusMult = 1.025
+				innerRadiusMult = 0.975
+			}				
+		}
+		PQS
+		{
+		}
+		Ocean
+		{
+		}
+	}
+}
